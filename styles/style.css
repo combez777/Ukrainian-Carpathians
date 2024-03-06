@@ -1,0 +1,8 @@
+.hero__container {
+    width: 390px;
+    background-image: url(./styles/style.css);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
