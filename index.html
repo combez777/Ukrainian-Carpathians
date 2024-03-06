@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container hero__container">
+        <nav class="navigation">
+          <a href="index.html">
+            <svg class="logo__icon" width="150px" height="35px">
+              <use href="./images/symbol.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="icon-menu" width="40" height="40">
+              <use href="./images/symbol.svg#icon-menu"></use>
+              <!-- <use href="./images/heroicons-solid_menu-alt-3.svg"></use> -->
+            </svg>
+          </button>
+        </nav>
+        <h1 class="hero__title">
+          Насолоджуйся прогулянкою в горах з командою однодумців
+        </h1>
+        <button type="button" class="hero__button">Знайти програму</button>
+      </div>
+    </header>
+    <section class="container about">
+      <h2 class="about__title">
+        Досліджуйте всі гірські масиви світу разом із нами
+      </h2>
+      <h3 class="about__subtitle">Похід Чорногорським хребтом</h3>
+      <span class="about__text"
+        >Черногора — самый высокий горный хребет в украинских Карпатах,
+        находится в восточной части Полонинского Бескида; главный хребет
+        простирается в длину около 40 км между Чёрной Тисой на западе и Чёрным
+        Черемошем на востоке. Многие века по Черногорскому хребту проходила
+        граница государств, которым принадлежали Галичина и Закарпатье.
+      </span>
+      <button type="button" class="about__button">Програма туру</button>
+      <img src="/images/Rectangle 4.jpg" alt="домік у горах" />
+    </section>
+    <section class="container proposal">
+      <h2>Найкращі програми для тебе</h2>
+      <div class="proposal__block">
+        <div>
+          <svg class="proposal_icon--first" width="50" height="50">
+            <use href="./images/symbol.svg#roposal_1"></use>
+          </svg>
+        </div>
+        <div>
+          <h3>Досвідчений гід</h3>
+          <p class="proposal__text">Улюбленець клієнтів. Знайде спільну мову з ким завгодно, завдяки здібностям до приготування та безлічі цікавих історій. Хобі: підводне полювання та риболовля.
+            Наш гід: Карпати, Кавказ, Альпи, Туреччина.</p>
+        </div>
+      </div>
+      <div class="proposal__block">
+        <div>
+          <svg class="proposal_icon--first" width="50" height="50">
+            <use href="./images/symbol.svg#roposal_1"></use>
+          </svg>
+        </div>
+        <div>
+          <h3>Безпечний похід</h3>
+          <p class="proposal__text">Улюбленець клієнтів. Знайде спільну мову з ким завгодно, завдяки здібностям до приготування та безлічі цікавих історій. Хобі: підводне полювання та риболовля.
+            Наш гід: Карпати, Кавказ, Альпи, Туреччина.</p>
+        </div>
+      </div>
+      <div class="proposal__block">
+        <div>
+          <svg class="proposal_icon--first" width="50" height="50">
+            <use href="./images/symbol.svg#roposal_1"></use>
+          </svg>
+        </div>
+        <div>
+          <h3>Лояльні ціни</h3>
+          <p class="proposal__text">Улюбленець клієнтів. Знайде спільну мову з ким завгодно, завдяки здібностям до приготування та безлічі цікавих історій. Хобі: підводне полювання та риболовля.
+            Наш гід: Карпати, Кавказ, Альпи, Туреччина.</p>
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <!-- begane mobile menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle--close js-close-menu">
+        <svg class="" width="30" height="30">
+          <use href="/images/symbol.svg#close-menu"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a href="" class="link mobile-menu-link">Знайти гіда</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="link mobile-menu-link">Програма туру</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="./portfolio.html" class="link mobile-menu-link">Вартість</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="link mobile-menu-link">Блог</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="link mobile-menu-link">Контакти</a>
+        </li>
+      </ul>
+    </div>
+    <!-- end mobile menu -->
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>
