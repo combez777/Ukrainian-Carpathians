@@ -84,4 +84,9 @@ margin-bottom: 16px;
 
 .icon-menu{
   fill: black;
+
+  &:hover,
+  &:focus {
+    fill: blue;
+}
 }

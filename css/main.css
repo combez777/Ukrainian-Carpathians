@@ -161,6 +161,9 @@ header {
 .icon-menu {
   fill: black;
 }
+.icon-menu:hover, .icon-menu:focus {
+  fill: blue;
+}
 
 .container {
   width: 100vw;
