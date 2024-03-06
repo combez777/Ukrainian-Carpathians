@@ -28,16 +28,6 @@ header {
   --second-family: "Nunito Sans", sans-serif;
 }
 
-.hero__container {
-  width: 390px;
-  background-image: url(/images/Rectangle1.jpg);
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .hero__title {
   font-family: var(--second-family);
   font-weight: 700;
