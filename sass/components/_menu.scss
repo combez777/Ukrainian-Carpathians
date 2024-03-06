@@ -90,3 +90,12 @@ margin-bottom: 16px;
     fill: blue;
 }
 }
+
+.icon-menu--close{
+  fill: white;
+
+  &:hover,
+  &:focus {
+    fill: blue;
+}
+}

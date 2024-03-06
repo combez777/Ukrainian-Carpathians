@@ -165,6 +165,13 @@ header {
   fill: blue;
 }
 
+.icon-menu--close {
+  fill: white;
+}
+.icon-menu--close:hover, .icon-menu--close:focus {
+  fill: blue;
+}
+
 .container {
   width: 100vw;
   margin-left: auto;
