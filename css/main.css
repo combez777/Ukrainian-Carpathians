@@ -29,7 +29,7 @@ header {
 }
 
 .hero__container {
-  max-width: 390px;
+  width: 390px;
   height: 600px;
   background-image: url(/images/hero/Rectangle1.jpg);
   padding-left: 16px;
@@ -37,7 +37,6 @@ header {
   padding-top: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: aqua;
 }
 
 .hero__title {
@@ -164,11 +163,16 @@ header {
 }
 
 .container {
-  width: 390px;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+@media screen and (min-width: 390px) {
+  .container {
+    width: 390px;
+  }
 }
 
 .about {
@@ -209,6 +213,10 @@ header {
   color: #fdfdfd;
   margin-left: auto;
   margin-right: auto;
+}
+
+.about__img {
+  width: 100%;
 }
 
 .proposal {
